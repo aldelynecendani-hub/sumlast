@@ -1,21 +1,19 @@
 <html>
 <head>
-    <title>Sushi Store</title>
-    <link rel="stylesheet" href="ec.css">
+  <title>Sushi Register</title>
+  <link rel="stylesheet" href="ec.css">
 </head>
 <body>
-
 <header>
-    <h1>SUSHI STORE 🍣</h1>
+<h1>Register Here!</h1>
     <nav>
         <ul>
-		    <li>Home
+            <li>Home
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="ec1.html">Menu</a></li>
                 </ul>
             </li>
-		
             <li>Menu Sushi
                 <ul>
                     <li><a href="ec2.html">Nigiri</a></li>
@@ -48,16 +46,23 @@
         </ul>
     </nav>
 </header>
+  <div class="register-box">
+    <h1>🍣 Sushi Store</h1>
+    <h2>Create Account</h2>
 
-<section class="banner">
-<img src="header.png" alt="header">
-</section>
+    <form id="registerForm">
+      <input type="text" id="username" placeholder="Username" required>
 
-<footer>
-    <p>© 2026 Sushi Store</p>
-</footer>
+      <input type="email" id="email" placeholder="Email" required>
 
-<script src="ec.js"></script>
+      <input type="password" id="password" placeholder="Password" required>
 
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
