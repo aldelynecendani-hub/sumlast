@@ -169,3 +169,19 @@ color: green;
 font-weight: bold;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* space between text and logo */
+}
+
+.logo h1{
+    color: white;
+    font-size: 50px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
