@@ -173,7 +173,7 @@ font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* space between text and logo */
+    gap: 10px;
 }
 
 .logo h1{
@@ -182,6 +182,6 @@ font-weight: bold;
 }
 
 .logo img{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
